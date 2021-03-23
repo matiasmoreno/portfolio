@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Two stages metaheuristic algorithm | Matías Moreno</title>
+    <title>Vehicle routing and collection optimization | Matías Moreno</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Vehicle routing and collection optimization">
+    <meta name="description" content="A two-stage metaheuristic algorithm for finding efficient routes for a fleet of vehicles">
     <meta name="generator" content="Hugo 0.82.0" />
     
     
@@ -30,20 +30,20 @@
 
     
     
-    <meta property="og:title" content="Two stages metaheuristic algorithm" />
-<meta property="og:description" content="Vehicle routing and collection optimization" />
+    <meta property="og:title" content="Vehicle routing and collection optimization" />
+<meta property="og:description" content="A two-stage metaheuristic algorithm for finding efficient routes for a fleet of vehicles" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://matiasmoreno.github.io/portfolio/projects/route-optimization/" /><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2017-04-10T11:00:59-04:00" />
-<meta property="article:modified_time" content="2017-04-10T11:00:59-04:00" /><meta property="og:site_name" content="Matías Moreno" />
+<meta property="article:published_time" content="2020-12-17T12:00:00-04:00" />
+<meta property="article:modified_time" content="2020-12-17T12:00:00-04:00" /><meta property="og:site_name" content="Matías Moreno" />
 
-<meta itemprop="name" content="Two stages metaheuristic algorithm">
-<meta itemprop="description" content="Vehicle routing and collection optimization"><meta itemprop="datePublished" content="2017-04-10T11:00:59-04:00" />
-<meta itemprop="dateModified" content="2017-04-10T11:00:59-04:00" />
-<meta itemprop="wordCount" content="66">
+<meta itemprop="name" content="Vehicle routing and collection optimization">
+<meta itemprop="description" content="A two-stage metaheuristic algorithm for finding efficient routes for a fleet of vehicles"><meta itemprop="datePublished" content="2020-12-17T12:00:00-04:00" />
+<meta itemprop="dateModified" content="2020-12-17T12:00:00-04:00" />
+<meta itemprop="wordCount" content="268">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Two stages metaheuristic algorithm"/>
-<meta name="twitter:description" content="Vehicle routing and collection optimization"/>
+<meta name="twitter:title" content="Vehicle routing and collection optimization"/>
+<meta name="twitter:description" content="A two-stage metaheuristic algorithm for finding efficient routes for a fleet of vehicles"/>
 
 	
   </head>
@@ -142,10 +142,10 @@
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Two stages metaheuristic algorithm</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Vehicle routing and collection optimization</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              Vehicle routing and collection optimization
+              A two-stage metaheuristic algorithm for finding efficient routes for a fleet of vehicles
             </h2>
           
         
@@ -170,29 +170,33 @@
 
 
 
-      <h1 class="f1 athelas mt3 mb1">Two stages metaheuristic algorithm</h1>
+      <h1 class="f1 athelas mt3 mb1">Vehicle routing and collection optimization</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2017-04-10T11:00:59-04:00">April 10, 2017</time>
+      <time class="f6 mv4 dib tracked" datetime="2020-12-17T12:00:00-04:00">December 17, 2020</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Computer Science Engineering thesis. Design and development of metaheuristic technique that allows finding solutions to the milk collection problem with selection and blending.
-The algorithm finds optimal solutions for vehicle routing problems with multiple product types.</p>
-<ul>
-<li>Up to 500 nodes to visit.</li>
-<li>Up to 35 simultaneous routes.</li>
-<li>3 Different qualities of milk.</li>
-<li>Product mixing supported.</li>
-<li>Less than 50 seconds of computation time on the largest instance.</li>
-</ul>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="computer-science-engineering-thesis">Computer Science Engineering thesis.</h2>
+<p>Design and development of metaheuristic technique that allows finding solutions to the Milk Collection Problem with Selection and Blending.</p>
+<h2 id="vehicle-routing-problem">Vehicle Routing Problem</h2>
+<p>The Vehicle Routing Problem is a combinational optimization and integer programming problem wich asks &ldquo;What is the optimal set of routes for a fleet of vehicles to traverse in order to deliver to a given set of customers?&rdquo;.</p>
 <figure>
-    <img src="https://matiasmoreno.github.io/portfolio/images/500.png"/> 
+    <img src="https://matiasmoreno.github.io/portfolio/images/SA_plot.png"/> 
 </figure>
 
+<p>In my Computer Science engineering thesis I designed and tested a two-stage metaheuristic technique, that finds efficient routes for large routing instances.
+I worked with a real world problem called Milk Collection Problem with Selection and Blending (MCPSB), which is a problem related to the well-known Vehicle Routing Problem. In the MCPSB it is required to find a set of routes for a fleet of trucks, in order to collect and blend different qualities of milk, from farms located in a wide geographical area.</p>
+<p>The goal is to minimize the cost of transportation and maximize the profit obtained from the milk collection process.</p>
+<p>I designed and tested a metaheuristic technique wich uses Simulated Annealing and Hill Climbing algorithms to find efficient routes in less than 50 seconds of computing time for the largests instances available.</p>
 <figure>
     <img src="https://matiasmoreno.github.io/portfolio/images/SAHC.png"/> 
+</figure>
+
+<p>The largest instance tested is made up of 500 possible farms to visit, 35 trucks and 3 different milk qualities.</p>
+<figure>
+    <img src="https://matiasmoreno.github.io/portfolio/images/500.png"/> 
 </figure>
 
 <figure>
@@ -203,6 +207,14 @@ The algorithm finds optimal solutions for vehicle routing problems with multiple
     <img src="https://matiasmoreno.github.io/portfolio/images/time.png"/> 
 </figure>
 
+<h2 id="real-world-applications">Real world applications</h2>
+<p>The technique can be used to carry out many types of route planning in real time, in different real world problems such as:</p>
+<ul>
+<li>Collection of goods of different quality.</li>
+<li>Collection of hazardous materials</li>
+<li>Delivery of different types of goods.</li>
+<li>Planning visits for a group of workers.</li>
+</ul>
 <ul class="pa0">
   
 </ul>

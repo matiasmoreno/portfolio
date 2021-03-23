@@ -6,7 +6,7 @@
     
     <title>Artificial Inventory | Matías Moreno</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="A platform that detects empty areas on shelves and track people inside shops">
+    <meta name="description" content="A system that detects empty areas on shelves and track people inside shops">
     <meta name="generator" content="Hugo 0.82.0" />
     
     
@@ -31,19 +31,19 @@
     
     
     <meta property="og:title" content="Artificial Inventory" />
-<meta property="og:description" content="A platform that detects empty areas on shelves and track people inside shops" />
+<meta property="og:description" content="A system that detects empty areas on shelves and track people inside shops" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://matiasmoreno.github.io/portfolio/projects/artificial-inventory/" /><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2020-12-17T12:00:00-04:00" />
-<meta property="article:modified_time" content="2020-12-17T12:00:00-04:00" /><meta property="og:site_name" content="Matías Moreno" />
+<meta property="article:published_time" content="2021-01-12T12:00:00-04:00" />
+<meta property="article:modified_time" content="2021-01-12T12:00:00-04:00" /><meta property="og:site_name" content="Matías Moreno" />
 
 <meta itemprop="name" content="Artificial Inventory">
-<meta itemprop="description" content="A platform that detects empty areas on shelves and track people inside shops"><meta itemprop="datePublished" content="2020-12-17T12:00:00-04:00" />
-<meta itemprop="dateModified" content="2020-12-17T12:00:00-04:00" />
-<meta itemprop="wordCount" content="108">
+<meta itemprop="description" content="A system that detects empty areas on shelves and track people inside shops"><meta itemprop="datePublished" content="2021-01-12T12:00:00-04:00" />
+<meta itemprop="dateModified" content="2021-01-12T12:00:00-04:00" />
+<meta itemprop="wordCount" content="219">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Artificial Inventory"/>
-<meta name="twitter:description" content="A platform that detects empty areas on shelves and track people inside shops"/>
+<meta name="twitter:description" content="A system that detects empty areas on shelves and track people inside shops"/>
 
 	
   </head>
@@ -145,7 +145,7 @@
           <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Artificial Inventory</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              A platform that detects empty areas on shelves and track people inside shops
+              A system that detects empty areas on shelves and track people inside shops
             </h2>
           
         
@@ -173,41 +173,53 @@
       <h1 class="f1 athelas mt3 mb1">Artificial Inventory</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2020-12-17T12:00:00-04:00">December 17, 2020</time>
+      <time class="f6 mv4 dib tracked" datetime="2021-01-12T12:00:00-04:00">January 12, 2021</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Project presented in &ldquo;Feria de Software USM 2020&rdquo;. We developed a system that uses deep neural networks to identify empty spaces in shelves of a pet supply store. Also we detect the people in the store in real time.</p>
-<ul>
-<li>Collected and labeled more than 5000 different examples of empty areas on shelves.</li>
-<li>Trained and tuned a image segmentation model using transfer learning and convolutional neural networks.</li>
-<li>Tested and evaluate model. Recall score: 78.8%.</li>
-<li>Creation of heatmap and historic plot of empty areas in shelves.</li>
-<li>Used Yolo model to detect people, Recall score: 74.2%.</li>
-<li>Creation of heatmaps to identify most visited aisles.</li>
-<li>Use of direct feed from security cameras.</li>
-</ul>
-<figure>
-    <img src="https://matiasmoreno.github.io/portfolio/images/segmentation_hd.png"/> 
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="project-presented-in-feria-de-software-usm-2020">Project presented in &ldquo;Feria de Software USM 2020&rdquo;.</h2>
+<p>We developed a system that uses the direct feed from security cameras, to process the images and identify empty spaces and people in shelves of a pet supply store, using convolutional neural networks in real time.</p>
+<h2 id="image-segmentation">Image segmentation</h2>
+<p>We used image segmentation to detect empty areas in the store, also we used the position to identify the product.</p>
+<p><figure>
+    <img src="https://matiasmoreno.github.io/portfolio/images/seg_close.png"/> 
 </figure>
 
 <figure>
+    <img src="https://matiasmoreno.github.io/portfolio/images/products.png"/> 
+</figure>
+
+<figure>
+    <img src="https://matiasmoreno.github.io/portfolio/images/AI_plat_plot.png"/> 
+</figure>
+</p>
+<h3 id="some-of-my-performed-tasks-included">Some of my performed tasks included:</h3>
+<ul>
+<li>Product owner and data scientist of the team.</li>
+<li>Collect and discuss functional requirements from the client.</li>
+<li>Collect and label more than 5000 different examples of empty areas on shelves.</li>
+<li>Train and tune a image segmentation model using transfer learning and convolutional neural networks.</li>
+<li>Test and evaluate model. Recall score: 78.8%.</li>
+</ul>
+<h2 id="people-detection">People detection</h2>
+<p>We used image object classification with convolutional neural networks (YOLO) to detect people store.</p>
+<p><figure>
     <img src="https://matiasmoreno.github.io/portfolio/images/people_hd.png"/> 
 </figure>
 
 <figure>
     <img src="https://matiasmoreno.github.io/portfolio/images/heatmap_hd.png"/> 
 </figure>
-
-<figure>
-    <img src="https://matiasmoreno.github.io/portfolio/images/AI_plat_plot.png"/> 
-</figure>
-
-<figure>
-    <img src="https://matiasmoreno.github.io/portfolio/images/plat2.png"/> 
-</figure>
-
+</p>
+<h3 id="some-of-my-performed-tasks-included-1">Some of my performed tasks included:</h3>
+<ul>
+<li>Use of Yolo model to detect people in real time, Recall score: 74.2%.</li>
+<li>Measurement distance between people inside the shop.</li>
+<li>Creation of heatmap with the collected data, and display historic plot of visitors.</li>
+</ul>
+<p>The system allows to have a real-time and historical record and of the existing products in the store shelves.
+It allows making decisions about the positioning of products according to the flow of people and the frequency of movement of the products.</p>
 <ul class="pa0">
   
 </ul>

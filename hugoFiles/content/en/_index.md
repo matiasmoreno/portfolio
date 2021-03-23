@@ -1,7 +1,7 @@
 ---
 title: "Data Science Portfolio"
 featured_image: '/images/home.jpg'
-description: "This is Matias Moreno's Data Science Portfolio"
+description: "Welcome to my Data Science project portfolio. "
 ---
 
-Welcome to my project portfolio. I've been working on different algorithms, including mathematical optimization and computer vision. You can check some finished projects below.
+I've been working on different algorithms, including mathematical optimization, artificial intelligence and computer vision. You can check some projects below.
