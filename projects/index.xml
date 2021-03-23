@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Matías Moreno</title>
+    <link>https://matiasmoreno.github.io/portfolio/projects/</link>
+    <description>Recent content in Projects on Matías Moreno</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://matiasmoreno.github.io/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artificial Inventory</title>
+      <link>https://matiasmoreno.github.io/portfolio/projects/artificial-inventory/</link>
+      <pubDate>Thu, 17 Dec 2020 12:00:00 -0400</pubDate>
+      
+      <guid>https://matiasmoreno.github.io/portfolio/projects/artificial-inventory/</guid>
+      <description>Project presented in &amp;ldquo;Feria de Software USM 2020&amp;rdquo;. We developed a system that uses deep neural networks to identify empty spaces in shelves of a pet supply store. Also we detect the people in the store in real time.
+ Collected and labeled more than 5000 different examples of empty areas on shelves. Trained and tuned a image segmentation model using transfer learning and convolutional neural networks. Tested and evaluate model.</description>
+    </item>
+    
+    <item>
+      <title>Two stages metaheuristic algorithm</title>
+      <link>https://matiasmoreno.github.io/portfolio/projects/route-optimization/</link>
+      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://matiasmoreno.github.io/portfolio/projects/route-optimization/</guid>
+      <description>Computer Science Engineering thesis. Design and development of metaheuristic technique that allows finding solutions to the milk collection problem with selection and blending. The algorithm finds optimal solutions for vehicle routing problems with multiple product types.
+ Up to 500 nodes to visit. Up to 35 simultaneous routes. 3 Different qualities of milk. Product mixing supported. Less than 50 seconds of computation time on the largest instance.          </description>
+    </item>
+    
+  </channel>
+</rss>
